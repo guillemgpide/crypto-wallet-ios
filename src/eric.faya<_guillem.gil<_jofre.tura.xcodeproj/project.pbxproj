@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3918EBBE2D48227E00EE0F5D /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3918EBBD2D48227E00EE0F5D /* Alamofire */; };
+		39983C072D46F909002DB98F /* CoreStore in Frameworks */ = {isa = PBXBuildFile; productRef = 39983C062D46F909002DB98F /* CoreStore */; };
+		39BEC3B12D46B5A000C5D17C /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 39BEC3B02D46B5A000C5D17C /* FirebaseAnalytics */; };
+		39BEC3B32D46B5A000C5D17C /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 39BEC3B22D46B5A000C5D17C /* FirebaseAnalyticsOnDeviceConversion */; };
+		39BEC3B52D46B5A000C5D17C /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 39BEC3B42D46B5A000C5D17C /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		39BEC3B72D46B5A000C5D17C /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 39BEC3B62D46B5A000C5D17C /* FirebaseAppCheck */; };
+		39BEC3B92D46B5A000C5D17C /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 39BEC3B82D46B5A000C5D17C /* FirebaseAppDistribution-Beta */; };
+		39BEC3BB2D46BF0300C5D17C /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 39BEC3BA2D46BF0200C5D17C /* FirebaseAuth */; };
+		39BEC3BD2D46BF0300C5D17C /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 39BEC3BC2D46BF0300C5D17C /* FirebaseCore */; };
+		8CB1B7A62D4AD369008B1418 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 8CB1B7A52D4AD369008B1418 /* SDWebImage */; };
+		8CB1B7A82D4AD369008B1418 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8CB1B7A72D4AD369008B1418 /* SDWebImageMapKit */; };
+		8CB1B7AB2D4AD6FA008B1418 /* SDWebImageSVGCoder in Frameworks */ = {isa = PBXBuildFile; productRef = 8CB1B7AA2D4AD6FA008B1418 /* SDWebImageSVGCoder */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3942E84C2D43FD0000E435E7 /* eric.faya<_guillem.gil<_jofre.tura.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eric.faya<_guillem.gil<_jofre.tura.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3942E8612D43FD0100E435E7 /* Exceptions for "eric.faya<_guillem.gil<_jofre.tura" folder in "eric.faya<_guillem.gil<_jofre.tura" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 3942E84B2D43FD0000E435E7 /* eric.faya<_guillem.gil<_jofre.tura */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3942E84E2D43FD0000E435E7 /* eric.faya<_guillem.gil<_jofre.tura */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3942E8612D43FD0100E435E7 /* Exceptions for "eric.faya<_guillem.gil<_jofre.tura" folder in "eric.faya<_guillem.gil<_jofre.tura" target */,
+			);
+			path = "eric.faya<_guillem.gil<_jofre.tura";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3942E8492D43FD0000E435E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3918EBBE2D48227E00EE0F5D /* Alamofire in Frameworks */,
+				39BEC3B72D46B5A000C5D17C /* FirebaseAppCheck in Frameworks */,
+				39BEC3BB2D46BF0300C5D17C /* FirebaseAuth in Frameworks */,
+				8CB1B7AB2D4AD6FA008B1418 /* SDWebImageSVGCoder in Frameworks */,
+				39BEC3B12D46B5A000C5D17C /* FirebaseAnalytics in Frameworks */,
+				8CB1B7A62D4AD369008B1418 /* SDWebImage in Frameworks */,
+				39BEC3B92D46B5A000C5D17C /* FirebaseAppDistribution-Beta in Frameworks */,
+				39BEC3BD2D46BF0300C5D17C /* FirebaseCore in Frameworks */,
+				8CB1B7A82D4AD369008B1418 /* SDWebImageMapKit in Frameworks */,
+				39BEC3B52D46B5A000C5D17C /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				39BEC3B32D46B5A000C5D17C /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				39983C072D46F909002DB98F /* CoreStore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3942E8432D43FD0000E435E7 = {
+			isa = PBXGroup;
+			children = (
+				3942E84E2D43FD0000E435E7 /* eric.faya<_guillem.gil<_jofre.tura */,
+				3942E84D2D43FD0000E435E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3942E84D2D43FD0000E435E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3942E84C2D43FD0000E435E7 /* eric.faya<_guillem.gil<_jofre.tura.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3942E84B2D43FD0000E435E7 /* eric.faya<_guillem.gil<_jofre.tura */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3942E8622D43FD0100E435E7 /* Build configuration list for PBXNativeTarget "eric.faya<_guillem.gil<_jofre.tura" */;
+			buildPhases = (
+				3942E8482D43FD0000E435E7 /* Sources */,
+				3942E8492D43FD0000E435E7 /* Frameworks */,
+				3942E84A2D43FD0000E435E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3942E84E2D43FD0000E435E7 /* eric.faya<_guillem.gil<_jofre.tura */,
+			);
+			name = "eric.faya<_guillem.gil<_jofre.tura";
+			packageProductDependencies = (
+				39BEC3B02D46B5A000C5D17C /* FirebaseAnalytics */,
+				39BEC3B22D46B5A000C5D17C /* FirebaseAnalyticsOnDeviceConversion */,
+				39BEC3B42D46B5A000C5D17C /* FirebaseAnalyticsWithoutAdIdSupport */,
+				39BEC3B62D46B5A000C5D17C /* FirebaseAppCheck */,
+				39BEC3B82D46B5A000C5D17C /* FirebaseAppDistribution-Beta */,
+				39BEC3BA2D46BF0200C5D17C /* FirebaseAuth */,
+				39BEC3BC2D46BF0300C5D17C /* FirebaseCore */,
+				39983C062D46F909002DB98F /* CoreStore */,
+				3918EBBD2D48227E00EE0F5D /* Alamofire */,
+				8CB1B7A52D4AD369008B1418 /* SDWebImage */,
+				8CB1B7A72D4AD369008B1418 /* SDWebImageMapKit */,
+				8CB1B7AA2D4AD6FA008B1418 /* SDWebImageSVGCoder */,
+			);
+			productName = "eric.faya<_guillem.gil<_jofre.tura";
+			productReference = 3942E84C2D43FD0000E435E7 /* eric.faya<_guillem.gil<_jofre.tura.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3942E8442D43FD0000E435E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					3942E84B2D43FD0000E435E7 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 3942E8472D43FD0000E435E7 /* Build configuration list for PBXProject "eric.faya<_guillem.gil<_jofre.tura" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3942E8432D43FD0000E435E7;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				39BEC3AF2D46B5A000C5D17C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				39983C052D46F909002DB98F /* XCRemoteSwiftPackageReference "CoreStore" */,
+				3918EBBC2D48227E00EE0F5D /* XCRemoteSwiftPackageReference "Alamofire" */,
+				8CB1B7A42D4AD369008B1418 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				8CB1B7A92D4AD6FA008B1418 /* XCRemoteSwiftPackageReference "SDWebImageSVGCoder" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3942E84D2D43FD0000E435E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3942E84B2D43FD0000E435E7 /* eric.faya<_guillem.gil<_jofre.tura */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3942E84A2D43FD0000E435E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3942E8482D43FD0000E435E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3942E8632D43FD0100E435E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "eric.faya<_guillem.gil<_jofre.tura/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Necesitas acceder al FaceID o TouchId";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need to know where you are";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need to know where you are";
+				INFOPLIST_KEY_NSLocationUsageDescription = "We need to know where you are";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need to know where you are";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JAMBELES.eric.faya--guillem.gil--jofre.tura.eric-faya--guillem-gil--jofre-tura";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3942E8642D43FD0100E435E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "eric.faya<_guillem.gil<_jofre.tura/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Necesitas acceder al FaceID o TouchId";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need to know where you are";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need to know where you are";
+				INFOPLIST_KEY_NSLocationUsageDescription = "We need to know where you are";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need to know where you are";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JAMBELES.eric.faya--guillem.gil--jofre.tura.eric-faya--guillem-gil--jofre-tura";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3942E8652D43FD0100E435E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3942E8662D43FD0100E435E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3942E8472D43FD0000E435E7 /* Build configuration list for PBXProject "eric.faya<_guillem.gil<_jofre.tura" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3942E8652D43FD0100E435E7 /* Debug */,
+				3942E8662D43FD0100E435E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3942E8622D43FD0100E435E7 /* Build configuration list for PBXNativeTarget "eric.faya<_guillem.gil<_jofre.tura" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3942E8632D43FD0100E435E7 /* Debug */,
+				3942E8642D43FD0100E435E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3918EBBC2D48227E00EE0F5D /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+		39983C052D46F909002DB98F /* XCRemoteSwiftPackageReference "CoreStore" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JohnEstropia/CoreStore.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.3.0;
+			};
+		};
+		39BEC3AF2D46B5A000C5D17C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.7.0;
+			};
+		};
+		8CB1B7A42D4AD369008B1418 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.20.0;
+			};
+		};
+		8CB1B7A92D4AD6FA008B1418 /* XCRemoteSwiftPackageReference "SDWebImageSVGCoder" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSVGCoder.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.8.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3918EBBD2D48227E00EE0F5D /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3918EBBC2D48227E00EE0F5D /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		39983C062D46F909002DB98F /* CoreStore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 39983C052D46F909002DB98F /* XCRemoteSwiftPackageReference "CoreStore" */;
+			productName = CoreStore;
+		};
+		39BEC3B02D46B5A000C5D17C /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 39BEC3AF2D46B5A000C5D17C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		39BEC3B22D46B5A000C5D17C /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 39BEC3AF2D46B5A000C5D17C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		39BEC3B42D46B5A000C5D17C /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 39BEC3AF2D46B5A000C5D17C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		39BEC3B62D46B5A000C5D17C /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 39BEC3AF2D46B5A000C5D17C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		39BEC3B82D46B5A000C5D17C /* FirebaseAppDistribution-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 39BEC3AF2D46B5A000C5D17C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAppDistribution-Beta";
+		};
+		39BEC3BA2D46BF0200C5D17C /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseAuth;
+		};
+		39BEC3BC2D46BF0300C5D17C /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseCore;
+		};
+		8CB1B7A52D4AD369008B1418 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8CB1B7A42D4AD369008B1418 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		8CB1B7A72D4AD369008B1418 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8CB1B7A42D4AD369008B1418 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+		8CB1B7AA2D4AD6FA008B1418 /* SDWebImageSVGCoder */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8CB1B7A92D4AD6FA008B1418 /* XCRemoteSwiftPackageReference "SDWebImageSVGCoder" */;
+			productName = SDWebImageSVGCoder;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3942E8442D43FD0000E435E7 /* Project object */;
+}

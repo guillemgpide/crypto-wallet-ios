@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+
+# Xcode - Fitxers temporals i de configuració personal
+build/
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.hmap
+*.ipa
+*.xcuserstate
+
+# Swift Package Manager
+.build/
+
+# ⚠️ SEGURETAT CRÍTICA ⚠️
+# Aquesta línia ignora el fitxer de Firebase a QUALSEVOL carpeta.
+**/GoogleService-Info.plist
+
+# Opcional: Ignorar fitxers de disseny si pesen molt
+# *.fig
+# *.sketch

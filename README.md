@@ -41,4 +41,4 @@ Select a simulator (iPhone 14 or newer recommended) and hit `Cmd + R` to build a
 
 ## 📖 Background & Documentation
 
-This application was developed to demonstrate proficiency in iOS development, specifically focusing on third-party API consumption, BaaS integration, and native SDK utilization. Initial UI mockups, architecture reports, and project specifications can be found in the [`docs/`](./docs) directory.
+This application was developed to demonstrate proficiency in iOS development, specifically focusing on third-party API consumption, BaaS integration, and native SDK utilization. Initial UI mockups can be found in the [`docs/`](./docs) directory.

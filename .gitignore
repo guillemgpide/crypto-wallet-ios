@@ -1,7 +1,7 @@
 # macOS
 .DS_Store
 
-# Xcode - Fitxers temporals i de configuració personal
+# Xcode - Temporary and personal configuration files
 build/
 DerivedData/
 *.pbxuser
@@ -22,10 +22,10 @@ xcuserdata/
 # Swift Package Manager
 .build/
 
-# ⚠️ SEGURETAT CRÍTICA ⚠️
-# Aquesta línia ignora el fitxer de Firebase a QUALSEVOL carpeta.
+# ⚠️ CRITICAL SECURITY ⚠️
+# This line ignores the Firebase config file in ANY directory.
 **/GoogleService-Info.plist
 
-# Opcional: Ignorar fitxers de disseny si pesen molt
+# Optional: Ignore design files if they are too heavy
 # *.fig
 # *.sketch
